@@ -1,0 +1,29 @@
+.summary {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    box-shadow: 1px 2px 3px 2px lightgray;
+}
+
+.summary > h2 {
+    margin-bottom: 20px;
+}
+
+.summary > p > span {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+.summary > button {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgba(236, 153, 27, 0.541);
+}

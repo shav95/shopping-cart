@@ -1,0 +1,38 @@
+.singleItem {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80vw;
+    padding-top: 60px;
+}
+
+.singleItem > img {
+    width: 450px;
+    border-radius: 15px;
+}
+
+.singleItem__info {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.singleItem__info > h1 {
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.singleItem__info > h2 {
+    padding-top: 30px;
+}
+
+.btn-add {
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 8px;
+    background-color: rgb(233, 136, 45);
+    border-radius: 10px;
+    outline: none;
+    border: lightslategray 1px solid;
+}
